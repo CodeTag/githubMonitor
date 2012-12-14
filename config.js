@@ -6,7 +6,8 @@ var config = {
     },
     protocol: 'http',
     host: 'localhost',
-    port: 3000
+    port: 3000,
+    access_token: 'b7b94ad5a56a71aad5ac96b41615d6df31c158aa'
   },
 
   production: {
@@ -17,7 +18,8 @@ var config = {
     },
     protocol: 'http',
     host: 'feedscriber.jit.su',
-    port: 80
+    port: 80,
+    access_token: 'b7b94ad5a56a71aad5ac96b41615d6df31c158aa'
   }
 };
 
