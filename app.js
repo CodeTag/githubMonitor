@@ -32,6 +32,8 @@ app.configure('development', function(){
 });
 
 app.get('/', routes.index);
+app.post('/subscription', routes.subscription);
+app.post('/event/:login/:repository', routes.events);
 
 
 http.createServer(app).listen(app.get('port'), function(){
